@@ -63,7 +63,7 @@
   }
 
   .nav ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
     width: 100%;
     padding-left: 0;
@@ -74,7 +74,7 @@
   }
 
   .nav a {
-    display: block;
+    display: inline;
     width: 100%;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
