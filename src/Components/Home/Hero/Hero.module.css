@@ -1,0 +1,47 @@
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.tag {
+  background: #22c55e;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 20px 0;
+  color: #2563eb;
+}
+
+p {
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.primary {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.secondary {
+  border: 1px solid #ccc;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  /* color: #000; */
+}

@@ -1,0 +1,69 @@
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+.hero {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  /* color: #fff; */
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.about, .services, .contact {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.serviceCard {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  /* color: #fff; */
+}
+
+.serviceCard img {
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.serviceCard div {
+  padding: 20px;
+  flex: 1;
+}
