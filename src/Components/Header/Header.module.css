@@ -64,7 +64,7 @@
 
   .nav ul {
     flex-direction: row;
-    gap: 15px;
+    gap: 45px;
     width: 100%;
     padding-left: 0;
   }
