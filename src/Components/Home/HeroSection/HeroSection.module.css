@@ -57,6 +57,7 @@ p {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
+  color: #000;
 }
 
 .learn:hover {

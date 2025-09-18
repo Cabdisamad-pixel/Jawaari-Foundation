@@ -43,65 +43,10 @@
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: #333;
+  color:#000;
 }
 
 .registerBtn:hover {
   background-color: #333;
   color: #fff;
-}
-
-
-@media (max-width: 900px) {
-  .navLinks {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background: #fff;
-    flex-direction: column;
-    width: 100%;
-    max-width: 280px;
-    border-left: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-    transform: translateX(100%);
-    transition: transform 0.3s ease;
-  }
-
-  .navLinks.active {
-    transform: translateX(0);
-  }
-
-  .navLinks li {
-    margin: 15px 0;
-    padding-left: 20px;
-  }
-
-  .menuToggle {
-    display: flex;
-  }
-
-  /* Logo adjustment: move logo above menu on smaller screens */
-  .logo {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    font-size: 1.3rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .navbar {
-    height: auto;
-    padding: 10px 20px 60px 20px; /* room for menu */
-    flex-wrap: wrap;
-  }
-
-  .logo {
-    width: 100%;
-    text-align: center;
-    position: relative;
-    top: 0;
-    margin-bottom: 10px;
-  }
 }

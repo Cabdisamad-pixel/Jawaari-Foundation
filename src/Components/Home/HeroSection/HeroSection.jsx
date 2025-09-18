@@ -16,7 +16,7 @@ const HeroSection = () => {
           hope to those in need, creating a lasting impact for them.
         </p>
         <div className={styles.buttons}>
-          <button className={styles.donate}>Donate Now</button>
+          <button  className={styles.donate}>Donate Now</button>
           <button className={styles.learn}>Learn More</button>
         </div>
         <div className={styles.stats}>
