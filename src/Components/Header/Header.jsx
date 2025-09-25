@@ -26,7 +26,7 @@ const SideNavBar = (props) => {
 
 const Header = () => {
 
-  const [isMobile, setIsMobile] = useState(true)
+  const [isMobile, setIsMobile] = useState(false)
 
   const isMobileChangeHandler = () => {
     setIsMobile(prev => !prev)
