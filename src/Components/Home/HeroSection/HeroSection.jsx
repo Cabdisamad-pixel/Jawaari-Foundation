@@ -39,7 +39,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className={HeroSectionStyles.image}>
-        <img src={HeroImage} style={{width:'100rem', height:'20rem'}} />
+        <img src={HeroImage}  />
       </div>
     </section>
   );
