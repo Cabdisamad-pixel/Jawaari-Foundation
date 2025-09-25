@@ -80,6 +80,7 @@
 }
 .SideBarContainer ul i{
   font-size: 1.4rem;
+  color: #fff;
 }
 @media (max-width: 768px) {
   .header {
