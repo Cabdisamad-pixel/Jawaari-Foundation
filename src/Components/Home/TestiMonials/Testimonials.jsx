@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Testimonials.module.css";
+import testimonialsStyles from "./Testimonials.module.css";
 
 function Testimonials() {
   const testimonials = [
@@ -18,13 +18,13 @@ function Testimonials() {
   ];
 
   return (
-    <section className={styles.testimonials}>
+    <section className={testimonialsStyles.testimonials}>
       <h2>Student Success Stories</h2>
       <p>Hear from students who achieved their dreams</p>
-      <div className={styles.cards}>
+      <div className={testimonialsStyles.cards}>
         {testimonials.map((t, index) => (
-          <div key={index} className={styles.card}>
-            <div className={styles.stars}>★★★★★</div>
+          <div key={index} className={testimonialsStyles.card}>
+            <div className={testimonialsStyles.stars}>★★★★★</div>
             <p>"{t.message}"</p>
             <h4>{t.name}</h4>
             <span>{t.school}</span>

@@ -61,11 +61,14 @@
     margin-bottom: 15px;
     font-size: 22px;
   }
-
+  /* .nav{
+    background-color: #FF914D;
+  } */
   .nav ul {
     flex-direction: row;
     gap: 45px;
     width: 100%;
+    /* background-color: #1b0c03; */
     padding-left: 0;
   }
 

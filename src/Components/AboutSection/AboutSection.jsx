@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './AboutSection.module.css';
+import AboutStyles from './AboutSection.module.css';
 import heroImage from '../../Assets/goal.jpg'; // ku dar image la mid ah magacan
 import educationImage from '../../Assets/HeroAbout.jpg';
 import foodImage from '../../Assets/food.jpg';
@@ -12,18 +12,18 @@ const AboutSection = () => {
     <>
     <Header/>
     
-      <div className={styles.container}>
+      <div className={AboutStyles.container}>
         {/* Hero Section */}
-        <section className={styles.hero}>
-          <img src={heroImage} alt="Jawaari Foundation" className={styles.heroImage} />
-          <div className={styles.overlay}>
+        <section className={AboutStyles.hero}>
+          <img src={heroImage} alt="Jawaari Foundation" className={AboutStyles.heroImage} />
+          <div className={AboutStyles.overlay}>
             <h1 style={{color:'white'}}>Jawaari Foundation</h1>
             <p style={{color:'white'}}>Empowering Communities Through Education, Food & Healthcare</p>
           </div>
         </section>
 
         {/* About Section */}
-        <section className={styles.about}>
+        <section className={AboutStyles.about}>
           <h2>About Us</h2>
           <p>
             <strong>Jawaari Foundation</strong> is a non-profit organization dedicated to uplifting vulnerable communities through impactful initiatives in education, food distribution, and healthcare services.
@@ -36,10 +36,10 @@ const AboutSection = () => {
         </section>
 
         {/* Services Section */}
-        <section className={styles.services}>
+        <section className={AboutStyles.services}>
           <h2>Our Services</h2>
 
-          <div className={styles.serviceCard}>
+          <div className={AboutStyles.serviceCard}>
             <img src={educationImage} alt="Scholarship Program" />
             <div>
               <h3>Scholarship Program</h3>
@@ -50,7 +50,7 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <div className={styles.serviceCard}>
+          <div className={AboutStyles.serviceCard}>
             <img src={foodImage} alt="Food Aid Program" />
             <div>
               <h3>Food Aid Program</h3>
@@ -61,7 +61,7 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <div className={styles.serviceCard}>
+          <div className={AboutStyles.serviceCard}>
             <img src={healthImage} alt="Healthcare Access" />
             <div>
               <h3>Healthcare Access</h3>

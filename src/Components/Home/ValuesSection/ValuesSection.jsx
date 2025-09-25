@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ValuesSection.module.css';
+import ValuesSectionStyles from './ValuesSection.module.css';
 
 const values = [
   {
@@ -27,12 +27,12 @@ const values = [
 
 const ValuesSection = () => {
   return (
-    <section className={styles.valuesSection}>
+    <section className={ValuesSectionStyles.valuesSection}>
       <h2>Our Core Values</h2>
-      <div className={styles.valuesContainer}>
+      <div className={ValuesSectionStyles.valuesContainer}>
         {values.map(({ id, title, description, imgSrc }) => (
-          <div key={id} className={styles.valueCard}>
-            <img src={imgSrc} alt={title} className={styles.valueImage} />
+          <div key={id} className={ValuesSectionStyles.valueCard}>
+            <img src={imgSrc} alt={title} className={ValuesSectionStyles.valueImage} />
             <h3>{title}</h3>
             <p>{description}</p>
           </div>

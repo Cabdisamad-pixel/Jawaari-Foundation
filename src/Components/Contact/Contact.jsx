@@ -1,6 +1,6 @@
 // Contact.jsx
 import React, { useState } from 'react';
-import styles from './Contact.module.css';
+import contactStyles from './Contact.module.css';
 
 import Header from '../Header/Header';
 
@@ -31,11 +31,11 @@ const Contact = () => {
   return (
     <>
       <Header/>
-      <div className={styles.contactContainer}>
+      <div className={contactStyles.contactContainer}>
       <h2>Contact Us</h2>
       <p>If you have any questions or want to support Jawaari Foundation, please fill out the form below.</p>
 
-      <form onSubmit={handleSubmit} className={styles.contactForm}>
+      <form onSubmit={handleSubmit} className={contactStyles.contactForm}>
         <label>
           Name
           <input
@@ -86,10 +86,10 @@ const Contact = () => {
 
         <button type="submit">Send Message</button>
 
-        {success && <p className={styles.successMsg}>Thank you for contacting us! We will get back to you soon.</p>}
+        {success && <p className={contactStyles.successMsg}>Thank you for contacting us! We will get back to you soon.</p>}
       </form>
 
-      <div className={styles.contactInfo}>
+      <div className={contactStyles.contactInfo}>
         <h3>Other Ways to Reach Us</h3>
         <p>Email: info@jawaarifoundation.org</p>
         <p>Phone: +252 XXX XXX XXX</p>

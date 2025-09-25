@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Stats.module.css";
+import statsStyles from "./Stats.module.css";
 
 function Stats() {
   const data = [
@@ -10,9 +10,9 @@ function Stats() {
   ];
 
   return (
-    <section className={styles.stats}>
+    <section className={statsStyles.stats}>
       {data.map((item, index) => (
-        <div key={index} className={styles.card}>
+        <div key={index} className={statsStyles.card}>
           <h2>{item.number}</h2>
           <p>{item.label}</p>
         </div>

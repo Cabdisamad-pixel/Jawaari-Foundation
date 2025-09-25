@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './OngoingDonations.module.css';
+import ongoingDonationStyles from './OngoingDonations.module.css';
 
 const donationsData = [
   {
@@ -27,15 +27,15 @@ const donationsData = [
 
 const OngoingDonations = () => {
   return (
-    <section className={styles.ongoingDonations}>
+    <section className={ongoingDonationStyles.ongoingDonations}>
       <h2>Ongoing Donations</h2>
-      <div className={styles.cards}>
+      <div className={ongoingDonationStyles.cards}>
         {donationsData.map(({ id, title, description, imgSrc }) => (
-          <div key={id} className={styles.card}>
-            <img src={imgSrc} alt={title} className={styles.cardImage} />
+          <div key={id} className={ongoingDonationStyles.card}>
+            <img src={imgSrc} alt={title} className={ongoingDonationStyles.cardImage} />
             <h3>{title}</h3>
             <p>{description}</p>
-            <button className={styles.donateBtn}>Donate</button>
+            <button className={ongoingDonationStyles.donateBtn}>Donate</button>
           </div>
         ))}
       </div>
