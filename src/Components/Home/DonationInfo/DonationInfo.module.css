@@ -105,6 +105,7 @@
 
 
 /* Mobiles (max 600px) */
+
 @media (max-width: 600px) {
   .topSection {
     flex-direction: column;
