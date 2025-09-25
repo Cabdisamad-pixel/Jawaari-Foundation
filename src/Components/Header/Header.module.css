@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  /* background-color: red; */
 }
 
 .logo {
@@ -46,7 +47,7 @@
   color:#000;
 }
 .Menue{
-  visibility: hidden;
+  display: none;
 }
 
 .registerBtn:hover {
@@ -58,10 +59,12 @@
   background-color: #FF914D;
   position: fixed;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   top: 0%;
   z-index: 100;
   padding: 2rem;
+  /* overflow: hidden; */
+
 }
 .SideBarContainer ul{
   position: absolute;
@@ -87,7 +90,7 @@
 }
 @media (max-width: 768px) {
   .header {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     padding: 15px 20px;
   }
@@ -103,6 +106,8 @@
     display: none;
   }
   .Menue{
-    visibility: visible;
+    display: inline;
+    height: 2.5rem;
+
   }
 }

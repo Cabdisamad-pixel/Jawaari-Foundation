@@ -65,3 +65,48 @@
     min-width: 60rem;
     color: gray;
 }
+
+
+
+/* 📱 Tablet */
+@media (max-width: 1024px) {
+    .innerShadowImage h1 {
+        font-size: 3.2rem;
+    }
+
+    .container .Topics .SubTopic p {
+        font-size: 1.1rem;
+    }
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+    .innerShadowImage h1 {
+        font-size: 2.2rem;
+        padding: 0 1rem;
+    }
+
+    .container .Topics .SubTopic {
+        padding: 1rem;
+    }
+
+    .container .Topics .SubTopic p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+}
+
+/* 📱 Very small screens */
+@media (max-width: 480px) {
+    .innerShadowImage h1 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .container .Topics .SubTopic p {
+        font-size: 0.95rem;
+    }
+}
