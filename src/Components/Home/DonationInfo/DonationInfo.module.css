@@ -3,7 +3,6 @@
   background-color: #ffffff;
 }
 
-/* ===== Top Section ===== */
 .topSection {
   display: flex;
   gap: 40px;
@@ -67,7 +66,6 @@
   text-decoration: underline;
 }
 
-/* ===== Bottom Section ===== */
 .bottomSection {
   display: flex;
   align-items: center;
@@ -105,30 +103,6 @@
   border-radius: 12px;
 }
 
-/* ===== RESPONSIVE BREAKPOINTS ===== */
-
-/* Tablets (max 991px) */
-@media (max-width: 991px) {
-  .donationInfo {
-    padding: 40px 20px;
-  }
-
-  .textBox h2 {
-    font-size: 24px;
-  }
-
-  .textBox p {
-    font-size: 15px;
-  }
-
-  .statBox {
-    padding: 30px 20px;
-  }
-
-  .statBox h3 {
-    font-size: 36px;
-  }
-}
 
 /* Mobiles (max 600px) */
 @media (max-width: 600px) {
