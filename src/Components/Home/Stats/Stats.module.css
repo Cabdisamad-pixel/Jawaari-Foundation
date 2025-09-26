@@ -18,3 +18,21 @@
 .card p {
   color: #555;
 }
+@media (max-width: 480px) {
+  .stats {
+    flex-direction: column; /* ✅ Cards hal column noqdaan */
+    align-items: center;
+    gap: 20px;
+    padding: 30px 10px;
+  }
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
+  .card h2 {
+    font-size: 22px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+}
