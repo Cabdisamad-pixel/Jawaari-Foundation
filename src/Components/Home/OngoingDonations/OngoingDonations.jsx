@@ -6,22 +6,22 @@ const donationsData = [
     id: 1,
     title: "Accessible Education",
     description:
-      "Providing quality education to children in underprivileged areas.",
-    imgSrc: 'https://i.pinimg.com/1200x/6d/0b/76/6d0b7670918099732fd087ff78d4c2f1.jpg',
+      "Free first aid schools are being opened to educate and support the Buur Hakabo community.",
+    imgSrc: 'https://i.pinimg.com/1200x/c9/86/f7/c986f73f6e5c5f34ce811fa87fdc9810.jpg',
   },
   {
     id: 2,
-    title: "Healthcare Outreach",
+    title: "Eye Surgery",
     description:
-      "Bringing essential healthcare services to remote communities.",
-    imgSrc: "https://i.pinimg.com/736x/71/67/99/7167996a96973692a330ee6d7ef22336.jpg",
+      "A small procedure can restore clear vision and brighten everyday life..",
+    imgSrc: "https://i.pinimg.com/736x/9d/28/5b/9d285b25539a05179bc70a685c6ad74b.jpg",
   },
   {
     id: 3,
-    title: "Food Bank Initiatives",
+    title: "Wheelchairs",
     description:
-      "Ensuring nutritious meals for families facing food insecurity.",
-    imgSrc: "https://i.pinimg.com/736x/c4/1d/3a/c41d3a8f64d0ef5ede8bdd33fb4abf79.jpg",
+      'Your wheelchair donation gives freedom of movement.A small gift can change a life forever.',
+    imgSrc: "https://i.pinimg.com/1200x/50/24/97/5024973b81b430fe15f1a67b92b24ce2.jpg",
   },
 ];
 
