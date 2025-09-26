@@ -3,6 +3,7 @@
     width: 100%;
     min-height: 40rem;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -55,32 +56,35 @@
     padding: 0.3rem;
 }
 
-@media (max-width: 768px) {
-    .Blog {
-        width: 90%;
-        height: auto; /* si uu ugu dhaco screen yar */
-    }
 
-    .Blog h4 {
-        font-size: 1.5rem;
-    }
-
-    .Blog h6 {
-        font-size: 0.75rem;
-    }
+/* Responsive breakpoints */
+@media (max-width: 1024px){
+  .Blog{
+    width: 20rem;
+    height: 25rem;
+  }
 }
 
-/* 📱 Very small screens */
-@media (max-width: 480px) {
-    .BlogContainer {
-        gap: 1.5rem;
+@media (max-width: 768px){
+    .BlogContainer{
+        flex-wrap: wrap;
+        padding: 0.8rem;
     }
+  .Blog{
+    width: 70%; /* Card hal column noqdo */
+    max-width: 30rem;
+    height: auto;
+  }
+  .Blog img{
+    height: 14rem;
+  }
+}
 
-    .Blog {
-        width: 100%;
-    }
-
-    .Blog h4 {
-        font-size: 1.2rem;
-    }
+@media (max-width: 480px){
+  .Blog h4{
+    font-size: 1.5rem;
+  }
+  .Blog h6{
+    font-size: 0.7rem;
+  }
 }

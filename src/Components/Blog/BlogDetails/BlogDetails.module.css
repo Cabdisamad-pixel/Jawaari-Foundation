@@ -67,46 +67,51 @@
 }
 
 
-
-/* 📱 Tablet */
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     .innerShadowImage h1 {
         font-size: 3.2rem;
     }
-
-    .container .Topics .SubTopic p {
-        font-size: 1.1rem;
+    .container .Image {
+        height: 18rem;
     }
 }
 
-/* 📱 Mobile */
-@media (max-width: 768px) {
+/* Mobiles */
+@media (max-width: 600px) {
     .innerShadowImage h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
         padding: 0 1rem;
     }
-
-    .container .Topics .SubTopic {
-        padding: 1rem;
+    .container{
+        width: 100vw;
+        overflow: hidden;
     }
-
+    .container .Image {
+        width: 100vw;
+        height: 14rem;
+    }
     .container .Topics .SubTopic p {
         font-size: 1rem;
         line-height: 1.6rem;
+        /* background-color: aqua; */
+        min-width: 25rem;
+        /* display: none; */
     }
-}
-
-/* 📱 Very small screens */
-@media (max-width: 480px) {
-    .innerShadowImage h1 {
-        font-size: 1.8rem;
-    }
-
-    .container {
+    .container .Topics{
+        /* background-color: aqua; */
+        /* padding: 2rem ; */
+        width: 100%;
         padding: 1rem;
+        /* overflow: hidden; */
     }
-
-    .container .Topics .SubTopic p {
-        font-size: 0.95rem;
+    .container .Topics .SubTopic{
+        width: 100%;
+        align-items: start;
+    }
+    .container .Topics .SubTopic h2{
+        /* background-color: red; */
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: start;
     }
 }
