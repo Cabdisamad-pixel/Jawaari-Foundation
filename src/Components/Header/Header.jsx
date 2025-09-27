@@ -13,10 +13,10 @@ const SideNavBar = (props) => {
     <div className={Headerstyles.SideBarContainer}>
       <ul>
         <i onClick={() => props.responsiveHandler()} class="fa-solid fa-xmark"></i>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About Us</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/Blog">Blog</Link></li>
+        <li><Link to="/"><i class="fa-solid fa-house"></i> Home</Link></li>
+        <li><Link to="/about"><i class="fa-solid fa-circle-info"></i> About Us</Link></li>
+        <li><Link to="/contact"> <i class="fa-solid fa-phone"></i> Contact</Link></li>
+        <li><Link to="/Blog"> <i class="fa-regular fa-newspaper"></i> Blog</Link></li>
       </ul>
     </div>
   )
