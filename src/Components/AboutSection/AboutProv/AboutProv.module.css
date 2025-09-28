@@ -1,0 +1,86 @@
+.aboutContainer {
+  width: 100%;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.7;
+  background-color: #ffffff;
+}
+
+/* Section cusub */
+.introSection {
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 3rem;
+  background: #f5f8ff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.introContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* mobile responsive */
+  text-align: left;
+}
+
+.imageBox {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.imageBox img{
+
+    width: 20rem;
+    height: 20rem;
+}
+
+.profileImage {
+  width: 240px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.textBox {
+  flex: 2;
+  min-width: 280px;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #ff914d;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Section hore */
+.aboutSection {
+  max-width: 800px;
+  text-align: center;
+}
+
+.subHeading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0066cc;
+  margin-bottom: 1.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .imageBox img{
+        width: 35rem;
+        height: 24rem;
+    }
+}

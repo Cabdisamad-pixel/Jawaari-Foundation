@@ -7,6 +7,7 @@ import healthImage from '../../Assets/HealthAbout.jpg';
 import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import AboutProv from './AboutProv/AboutProv';
 const AboutSection = () => {
   return (
     <>
@@ -25,6 +26,9 @@ const AboutSection = () => {
         {/* About Section */}
         <section className={AboutStyles.about}>
           <h2>About Us</h2>
+
+
+
           <p>
             <strong>Jawaari Foundation</strong> is a non-profit organization dedicated to uplifting vulnerable communities through impactful initiatives in education, food distribution, and healthcare services.
             Since our inception, we have worked tirelessly to ensure that no child is left without access to education, no family goes to bed hungry, and no person is denied basic medical care.
@@ -34,6 +38,8 @@ const AboutSection = () => {
             We believe in working hand-in-hand with communities to develop solutions that are both compassionate and practical.
           </p>
         </section>
+
+        <AboutProv/>
 
         {/* Services Section */}
         <section className={AboutStyles.services}>
