@@ -80,7 +80,7 @@
 
 @media (max-width: 768px) {
     .imageBox img{
-        width: 80%;
+        width: 80vw;
         height: 24rem;
     }
 }
