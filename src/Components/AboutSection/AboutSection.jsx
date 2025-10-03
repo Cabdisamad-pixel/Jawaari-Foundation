@@ -9,6 +9,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import AboutProv from './AboutProv/AboutProv';
 import DonationMeatsOfArafa from './DonationMeatsOfArafa/DonationMeatsOfArafa';
+import Founder from './Founder/Founder';
 const AboutSection = () => {
   return (
     <>
@@ -40,7 +41,7 @@ const AboutSection = () => {
             We believe in working hand-in-hand with communities to develop solutions that are both compassionate and practical.
           </p>
         </section>
-
+        <Founder/>
         <AboutProv />
         <DonationMeatsOfArafa/>
 
