@@ -115,16 +115,23 @@
         flex-wrap: wrap;
         padding: 0.5rem;
         width: 100vw;
-        background-color: aqua;
+        /* background-color: aqua; */
     }
     .Alone{
-        width: 100%;
+        min-width:17rem;
+        min-height: 10rem;
 
     }
     .inlineImageWinners{
         width: 100%;
+        /* background-color: tomato; */
     }
     .inlineImageWinners .card{
-        width: 100%;
+        min-width: 17rem;
+        padding: 1rem;
+        min-height: 10rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
