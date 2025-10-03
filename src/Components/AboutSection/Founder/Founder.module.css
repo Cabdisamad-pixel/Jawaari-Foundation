@@ -73,6 +73,7 @@
 
   .content {
     max-width: 44rem;
+    
   }
 }
 
@@ -81,4 +82,10 @@
     transition: none !important;
     animation: none !important;
   }
+}
+
+@media(max-width : 468px){
+    .content{
+        margin-left: 0%;
+    }
 }
