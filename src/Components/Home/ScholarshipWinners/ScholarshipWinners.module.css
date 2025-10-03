@@ -1,0 +1,114 @@
+.container {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.description {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.grid {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    align-items: stretch; */
+
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+    gap: 2rem;
+    height: 33rem;
+    /* flex-wrap: wrap; */
+}
+
+.inlineImageWinners {
+    /* background-color: aqua; */
+    display: grid;
+    gap: 1rem;
+    justify-content: start;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.inlineImageWinners .card{
+    width: 20rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    /* padding: 1rem; */
+    transition: transform 0.3s ease;
+    flex-basis: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Alone{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    transition: transform 0.3s ease;
+    flex-basis: 60%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.Alone:hover{
+    transform: translateY(-5px);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.caption {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.75rem;
+    }
+
+    .description {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .caption {
+        font-size: 0.9rem;
+    }
+    .grid{
+        flex-wrap: wrap;
+    }
+}

@@ -4,7 +4,7 @@ import Herostyles from "./Hero.module.css";
 function Hero() {
   return (
     <section className={Herostyles.hero}>
-      <span className={Herostyles.tag}>For Uzbekistan University Students</span>
+      <span className={Herostyles.tag}>For Al-Hilaal University Students</span>
       <h1>Your Gateway to Prestigious Scholarships</h1>
       <p>
         Join hundreds of students preparing for Presidential and Nomdor

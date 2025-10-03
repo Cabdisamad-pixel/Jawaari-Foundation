@@ -17,13 +17,7 @@ const AboutProv = () => {
                     <div className={AboutProvStyles.textBox}>
                         <h2 className={AboutProvStyles.heading}>Jawaari Foundation</h2>
                         <p className={AboutProvStyles.description}>
-                            Jawaari Foundation waxaa loogu magac daray Guddoomiyihii hore ee
-                            Baarlamaanka Soomaaliya, <strong>Prof. Maxamed Cusmaan Jawaari</strong>.
-                            Magaciisa ayaa loo xushay si loo xuso kaalintiisii hogaamineed iyo
-                            dadaalkiisii ku aaddanaa horumarinta bulshada Soomaaliyeed.
-                            Hay’addan deeq bixinta ah waxa ay u taagan tahay sii wadidda
-                            dhaxalkiisa, iyadoo diiradda saaraysa waxbarashada, caafimaadka iyo
-                            taageeridda bulshada nugul.
+                            The Jawari Foundation is named after the former Speaker of the Somali Parliament, <strong>Prof. Mohamed Osman Jawari</strong> . His name was chosen to honor his leadership role and his efforts toward the development of Somali society. This charitable organization is dedicated to continuing his legacy by focusing on education, healthcare, and support for vulnerable communities.
                         </p>
                     </div>
                 </div>

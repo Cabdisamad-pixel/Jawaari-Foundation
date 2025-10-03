@@ -4,7 +4,7 @@ import BlogStyle from './Blog.module.css'
 import { Navigate } from "react-router-dom"
 import { useContext } from "react"
 import BlogContext from '../../Store/BlogContext/BlogContext';
-
+import Footer from '../Footer/Footer'
 const Blog = () => {
 
     const ctx = useContext(BlogContext);
@@ -119,6 +119,7 @@ const Blog = () => {
                     </div>
                 })}
             </div>
+            <Footer/>
         </>
     )
 

@@ -2,7 +2,7 @@ import { useContext } from "react"
 import BlogContext from "../../../Store/BlogContext/BlogContext"
 import BlogDetailsStyle from './BlogDetails.module.css'
 import Header from "../../Header/Header";
-
+import Footer from '../../Footer/Footer';
 
 const BlogDetails = () => {
 
@@ -31,6 +31,8 @@ const BlogDetails = () => {
                     })}
                 </div>
             </div>
+
+            <Footer/>
 
         </>
     )

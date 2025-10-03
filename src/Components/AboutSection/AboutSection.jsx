@@ -8,18 +8,19 @@ import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import AboutProv from './AboutProv/AboutProv';
+import DonationMeatsOfArafa from './DonationMeatsOfArafa/DonationMeatsOfArafa';
 const AboutSection = () => {
   return (
     <>
-    <Header/>
-    
+      <Header />
+
       <div className={AboutStyles.container}>
         {/* Hero Section */}
         <section className={AboutStyles.hero}>
           <img src={heroImage} alt="Jawaari Foundation" className={AboutStyles.heroImage} />
           <div className={AboutStyles.overlay}>
-            <h1 style={{color:'white'}}>Jawaari Foundation</h1>
-            <p style={{color:'white'}}>Empowering Communities Through Education, Food & Healthcare</p>
+            <h1 style={{ color: 'white' }}>Jawaari Foundation</h1>
+            <p style={{ color: 'white' }}>Empowering Communities Through Education, Food & Healthcare</p>
           </div>
         </section>
 
@@ -30,8 +31,9 @@ const AboutSection = () => {
 
 
           <p>
-            <strong>Jawaari Foundation</strong> is a non-profit organization dedicated to uplifting vulnerable communities through impactful initiatives in education, food distribution, and healthcare services.
-            Since our inception, we have worked tirelessly to ensure that no child is left without access to education, no family goes to bed hungry, and no person is denied basic medical care.
+            <strong>Jawaari Foundation</strong> The Jawari Foundation, established in 2024, is a non-profit organization dedicated to preserving the legacy of Professor Jawari and advancing his vision for education, governance, and equality. We work to empower individuals and communities through scholarships, leadership programs, and advocacy, building a future where knowledge, integrity, and opportunity are shared by all.
+
+            Rooted in Jawari’s lifelong commitment to Somalia and its people, the Foundation serves as a bridge between past achievements and future aspirations — promoting inclusive education, fostering democracy, and inspiring the next generation of leaders.
           </p>
           <p>
             Our mission is to create a sustainable and just society where everyone has equal opportunities to thrive and live with dignity.
@@ -39,7 +41,8 @@ const AboutSection = () => {
           </p>
         </section>
 
-        <AboutProv/>
+        <AboutProv />
+        <DonationMeatsOfArafa/>
 
         {/* Services Section */}
         <section className={AboutStyles.services}>
@@ -78,7 +81,7 @@ const AboutSection = () => {
             </div>
           </div>
         </section>
-        <Footer/>
+        <Footer />
       </div>
     </>
   );
