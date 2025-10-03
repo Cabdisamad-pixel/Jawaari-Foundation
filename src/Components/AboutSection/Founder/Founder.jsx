@@ -17,19 +17,15 @@ const Founder = () => {
           <h3 className={styles.name}>Professor Cabdicasiis Jawaari</h3>
 
           <p className={styles.paragraph}>
-            Professor Cabdicasiis Jawaari waa aasaasaha <strong>Jawari Foundation</strong>, hoggaamiye bulshada Soomaaliyeed ka dhex muuqday muddo dheer,
-            laguna xasuusto howl-karnimadiisa iyo kartidiisa dhanka waxbarashada, hogaaminta, iyo adeegga shacabka.
+            Professor Cabdicasiis Jawaari is the founder of Jawari Foundation, a distinguished Somali leader who has long been recognized for his dedication, competence, and contributions in the fields of education, leadership, and public service.
           </p>
 
           <p className={styles.paragraph}>
-            Waxa uu aasaasay hay’addan isaga oo ka duulaya aragtidiisa ah in waxbarasho iyo fursado loo siman yahay ay yihiin furaha
-            horumar waara iyo bulsho caddaalad iyo sinnaan ku dhisan.
+            He founded the organization based on his vision that equal access to education and opportunities is the key to sustainable development and a society built on justice and equality.
           </p>
 
           <p className={styles.paragraph}>
-            Ujeedkiisu waa in <strong>Jawari Foundation</strong> noqoto hay’ad ay ku kalsoonaan karaan dhammaan bulshada Soomaaliyeed meel kasta oo ay joogaan,
-            si gaar ahna u garab istaagta dadka baahiyaha gaarka ah qaba iyo dadka danyarta ah, isagoo rajo ka leh mustaqbal Soomaaliya oo ku dhisan
-            aqoon, fursad, iyo wadajir.
+            His goal is for <strong>Jawari Foundation</strong> to become an institution trusted by all Somalis wherever they are, with a particular commitment to supporting people with special needs and vulnerable communities, while envisioning a future for Somalia built on knowledge, opportunity, and unity.
           </p>
         </div>
       </div>
