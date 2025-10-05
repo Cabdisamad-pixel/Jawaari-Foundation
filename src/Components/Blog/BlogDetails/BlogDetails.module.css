@@ -1,23 +1,24 @@
 
 .container{
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
+    /* align-items: center; */
     /* margin-top: 3rem; */
-    padding: 2rem;
+    padding: 1rem;
     background-color: rgb(26, 34, 51);
 }
 .container .Image{
-    width: 48rem;
+    width: 100%;
     height: 23rem;
     border-radius: 0.8rem;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 1rem;
 }
 .innerShadowImage{
     background-color: rgba(0, 0, 0, 0.6);
@@ -40,13 +41,14 @@
     display: flex;
     flex-direction: column;
     /* justify-content:start ; */
-    align-items: center;
+    align-items: start;
     text-align: start;
+    margin-left: 0%;
 }
 
 .container .Topics .SubTopic {
     /* background-color: tomato; */
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     width: 50rem;
 }
 
@@ -85,31 +87,44 @@
     .container{
         width: 100vw;
         overflow: hidden;
+        padding: 0%;
     }
     .container .Image {
         width: 100vw;
         height: 14rem;
     }
     .container .Topics .SubTopic p {
-        font-size: 1rem;
-        line-height: 1.6rem;
-        /* background-color: aqua; */
+        /* font-size: 1rem; */
+        line-height: 1.3rem;
+        background-color: aqua;
         min-width: 22rem;
         /* display: none; */
+        /* background-color: tomato; */
+        text-align: left;
+        font-size: 0.7rem;
+        /* display: flex;
+        flex-wrap: wrap; */
+        height: auto;
+        
     }
     .container .Topics{
         /* background-color: aqua; */
         /* padding: 2rem ; */
         width: 100%;
-        padding: 0.1rem;
+        /* padding: 0.1rem; */
         /* overflow: hidden; */
+        margin-left: 0%;
+        padding: 0.3rem;
+        overflow: scroll;
     }
     .container .Topics .SubTopic{
         width: 100%;
         align-items: start;
+        padding: 0%;
     }
     .container .Topics .SubTopic h2{
         /* background-color: red; */
+        /* margin-top: 1rem; */
         font-size: 1.2rem;
         width: 100%;
         text-align: start;
