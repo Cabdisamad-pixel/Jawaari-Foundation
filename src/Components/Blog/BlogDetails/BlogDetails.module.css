@@ -94,16 +94,10 @@
         height: 14rem;
     }
     .container .Topics .SubTopic p {
-        /* font-size: 1rem; */
         line-height: 1.3rem;
-        background-color: aqua;
         min-width: 22rem;
-        /* display: none; */
-        /* background-color: tomato; */
         text-align: left;
         font-size: 0.7rem;
-        /* display: flex;
-        flex-wrap: wrap; */
         height: auto;
         
     }
